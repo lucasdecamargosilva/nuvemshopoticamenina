@@ -128,11 +128,12 @@
 
         :root {
             --c-bg: #ffffff;
-            --c-surface: #f7f6f4;
-            --c-ink: #111111;
+            --c-surface: #faf5fb;
+            --c-ink: #59005e;
             --c-muted: #999;
-            --c-line: #e8e8e8;
-            --c-accent: #111111;
+            --c-line: #ecdff0;
+            --c-accent: #59005e;
+            --c-gold: #d8a12d;
             --c-danger: #cc3333;
             --font-display: inherit;
             --font-body: inherit;
@@ -170,7 +171,7 @@
         @keyframes q-modal-in { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
         #q-modal-ia {
             display: none; position: fixed; inset: 0; z-index: 999999;
-            background: rgba(240,238,235,0.96);
+            background: rgba(250,245,251,0.97);
             font-family: var(--font-body);
             overflow-y: auto; box-sizing: border-box;
         }
@@ -317,7 +318,7 @@
         /* Corner marks — clean editorial style */
         .q-face-corner {
             position: absolute; width: 20px; height: 20px;
-            border-color: var(--c-ink); border-style: solid;
+            border-color: var(--c-gold); border-style: solid;
             transition: border-color 0.2s;
         }
         .q-face-corner-tl { top: 0; left: 0; border-width: 2px 0 0 2px; }
@@ -629,7 +630,7 @@
                     <!-- Persistent header (all steps) -->
                     <div id="q-header-provador">
                         <h1>Provador Virtual</h1>
-                        <span style="display:inline-block;font-size:22px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--c-ink);">Ótica Menina</span>
+                        <img src="https://dcdn-us.mitiendanube.com/stores/007/790/080/themes/common/logo-4102696595273743206-1789529709-475b7603615ca0ec458408f847b12d3b1789529709-480-0.webp" alt="Ótica Menina" style="height:62px;width:auto;"/>
                     </div>
 
                     <!-- Main step -->
